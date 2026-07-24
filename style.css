@@ -857,3 +857,504 @@ hr{
 
 
 /*--------------------------------THE END---------------------------------*/
+
+
+
+
+
+/*-------------------------Mobile Media Quries-------------------------------*/
+
+
+
+
+/*----------------------------Section No 01-------------------------------*/
+
+/*=========================
+ MOBILE
+=========================*/
+
+@media(max-width:992px){
+
+.navbar{
+
+background:black;
+
+}
+
+.navbar-collapse{
+
+text-align:center;
+
+padding-top:25px;
+
+}
+
+.contact-btn{
+
+display:inline-block;
+
+margin-top:20px;
+
+}
+
+.hero{
+
+padding-top:130px;
+
+text-align:center;
+
+}
+
+.hero-content h1{
+
+font-size:56px;
+
+}
+
+.hero-content p{
+
+margin:auto;
+
+margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+
+
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+
+font-size:46px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+line-height:30px;
+
+}
+
+.logo{
+
+font-size:28px;
+
+}
+
+
+}
+
+@media(max-width:576px){
+
+.hero-content h1{
+
+font-size:38px;
+
+line-height:1.2;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+}
+
+.btn-main,
+.btn-outline-custom{
+
+width:220px;
+
+text-align:center;
+
+}
+
+
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    .hero-content{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:600px){
+
+.hero{
+
+    background-image:url("images\'/hero-mobile.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    min-height:100vh;
+
+}
+
+}
+
+
+
+
+
+
+/*----------------------------Section No 02-------------------------------*/
+
+
+
+
+
+/*==========================
+    RESPONSIVE
+==========================*/
+
+@media(max-width:992px){
+
+    .feature-box{
+        margin-bottom:40px;
+    }
+
+    .section-title{
+        margin:60px 0 50px;
+    }
+
+    .section-title h2{
+        font-size:40px;
+    }
+
+    .middle-box{
+        border:none;
+    }
+
+    .food-box{
+        margin-bottom:40px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .section-2{
+        padding:70px 0;
+    }
+
+    .section-title h2{
+        font-size:34px;
+    }
+
+    .feature-box h3{
+        font-size:24px;
+    }
+
+    .food-box h4{
+        font-size:24px;
+    }
+
+    .feature-box p,
+    .food-box p{
+        font-size:15px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .section-2{
+        padding:60px 0;
+    }
+
+    .section-title{
+        margin:50px 0 40px;
+    }
+
+    .section-title h2{
+        font-size:28px;
+    }
+
+    .feature-icon{
+        font-size:32px;
+    }
+
+    .feature-box h3{
+        font-size:22px;
+    }
+
+    .food-box h4{
+        font-size:22px;
+    }
+
+}
+
+
+
+
+
+/*----------------------------Section No 03-------------------------------*/
+
+
+
+
+
+/*=========================
+      RESPONSIVE
+=========================*/
+
+@media (max-width:991px){
+
+    .food-banner{
+        flex-direction:column;
+        text-align:center;
+        padding:40px 25px;
+    }
+
+    .banner-content,
+    .banner-image{
+        width:100%;
+    }
+
+    .banner-btn{
+        justify-content:center;
+    }
+
+    .banner-content{
+        margin-bottom:20px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .section-3{
+        padding:70px 0;
+    }
+
+    .banner-content h2{
+        font-size:32px;
+    }
+
+    .banner-content p{
+        font-size:15px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .food-banner{
+        padding:30px 20px;
+    }
+
+    .banner-content h2{
+        font-size:28px;
+    }
+
+    .banner-btn{
+        flex-direction:column;
+        gap:12px;
+    }
+
+    .btn-one,
+    .btn-two{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+
+
+
+
+/*----------------------------Section 04----------------------------/*
+
+
+
+
+
+/*====================================
+          RESPONSIVE
+====================================*/
+
+@media(max-width:1200px){
+
+.section-heading h3{
+    font-size:55px;
+}
+
+.menu-content h3{
+    font-size:28px;
+}
+
+.food-gallery img{
+    height:250px;
+}
+
+}
+
+@media(max-width:992px){
+
+.section-4{
+    padding:80px 0;
+}
+
+.food-gallery{
+    margin-bottom:60px;
+}
+
+.section-heading h3{
+    font-size:48px;
+}
+
+.menu-content h3{
+    font-size:26px;
+}
+
+.menu-bottom span{
+    font-size:28px;
+}
+
+}
+
+@media(max-width:768px){
+
+.food-gallery{
+    grid-template-columns:1fr;
+}
+
+.food-gallery img{
+    height:280px;
+}
+
+.section-heading h2{
+    font-size:38px;
+    flex-direction:column;
+    gap:10px;
+}
+
+.line-left,
+.line-right{
+    display:none;
+}
+
+.menu-item{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.menu-bottom{
+    justify-content:center;
+}
+
+}
+
+@media(max-width:576px){
+
+.section-4{
+    padding:60px 0;
+}
+
+.herfy-logo{
+    width:90px;
+}
+
+.section-heading h5{
+    font-size:18px;
+}
+
+.section-heading h2{
+    font-size:30px;
+}
+
+.menu-content h3{
+    font-size:22px;
+}
+
+.menu-content p{
+    font-size:15px;
+}
+
+.menu-bottom{
+    flex-direction:column;
+    gap:10px;
+}
+
+.menu-bottom span{
+    font-size:26px;
+}
+
+}
+
+
+
+
+
+
+/*----------------------------Footer for web page----------------------------/*
+
+
+
+
+
+
+/*==================================
+        RESPONSIVE For Footer
+==================================*/
+
+@media(max-width:991px){
+
+    .footer{
+        text-align:center;
+    }
+
+    .footer-box p{
+        margin:auto;
+    }
+
+    .social-icons{
+        justify-content:center;
+        margin-top:20px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .footer{
+        padding:50px 0 30px;
+    }
+
+    .footer-box h4{
+        font-size:22px;
+    }
+
+    .footer-box p,
+    .footer-box ul li a{
+        font-size:15px;
+    }
+
+    .social-icons a{
+        width:40px;
+        height:40px;
+        font-size:16px;
+    }
+
+    .footer-text{
+        font-size:16px;
+    }
+
+}
