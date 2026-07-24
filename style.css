@@ -474,3 +474,120 @@ transform:translateX(0);
 
 
 
+/*-------------------------Section No 3-------------------------------*/
+
+
+
+
+/*=========================
+        SECTION 3
+=========================*/
+
+.section-3{
+    
+    background:#fff;
+    padding-bottom: 50px;
+}
+
+/* Banner */
+
+.food-banner{
+    background:#95122C;
+    border-radius:25px;
+    padding:20px 30px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+
+    overflow:hidden;
+}
+
+/*=========================
+    LEFT CONTENT
+=========================*/
+
+.banner-content{
+    width:45%;
+    color:#fff;
+}
+
+.banner-content span{
+    display:block;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.banner-content h2{
+    font-size:42px;
+    font-weight:700;
+    line-height:1.3;
+    margin-bottom:30px;
+}
+
+.banner-content p{
+    font-size:16px;
+    line-height:1.8;
+    color:#f3f3f3;
+    margin-bottom:35px;
+    text-align: justify;
+}
+
+/*=========================
+        BUTTONS
+=========================*/
+
+.banner-btn{
+    display:flex;
+    gap:15px;
+}
+
+.btn-one,
+.btn-two{
+    text-decoration:none;
+    padding:13px 32px;
+    border-radius:40px;
+    font-size:15px;
+    font-weight:600;
+    transition:.4s;
+}
+
+/* White Button */
+
+.btn-one{
+    background:#fff;
+    color:#000;
+}
+
+.btn-one:hover{
+    background:#FF9408;
+    color:#fff;
+}
+
+/* Outline Button */
+
+.btn-two{
+    border:2px solid #FF9408;
+    color:#fff;
+}
+
+.btn-two:hover{
+    background:#fff;
+    color:#000;
+}
+
+/*=========================
+        IMAGE
+=========================*/
+
+.banner-image{
+    width:50%;
+}
+
+.banner-image img{
+    width:100%;
+    display:block;
+    border-radius:18px;
+}
