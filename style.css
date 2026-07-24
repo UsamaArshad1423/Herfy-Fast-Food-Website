@@ -113,7 +113,7 @@ body{
     align-items:center;
     overflow:hidden;
     position:relative;
-    background-image: url("images\'/bc-image.png");
+    background-image: url("images/bc-image.png");
 }
 
 .hero::before{
