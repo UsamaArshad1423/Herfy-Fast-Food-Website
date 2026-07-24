@@ -355,3 +355,122 @@ transform:translateX(0);
 
 
 
+/*-------------------------Section No 2-------------------------------*/
+
+
+
+
+/*==========================
+    Section No 02
+==========================*/
+
+.section-2{
+    padding:100px 0;
+    background:#fff;
+}
+
+/*==========================
+    TOP FEATURES
+==========================*/
+
+.feature-box{
+    padding:20px;
+}
+
+.feature-icon{
+    font-size:40px;
+    color:#FF9408;
+    margin-bottom:18px;
+}
+
+.feature-box h3{
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.feature-box p{
+    font-size:16px;
+    color:#666;
+    line-height:1.8;
+    max-width:300px;
+    margin:auto;
+}
+
+/*==========================
+    SECTION TITLE
+==========================*/
+
+.section-title{
+    margin:80px 0 60px;
+}
+
+.section-title span{
+    color:#FF9408;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.section-title h2{
+    font-size:52px;
+    font-weight:700;
+    color:#222;
+    margin-top:10px;
+}
+
+/*==========================
+    COFFEE ITEMS
+==========================*/
+
+.coffee-items{
+    margin-top:20px;
+}
+
+.food-box{
+    padding:0 30px;
+}
+
+.sec2-images img{
+    width: 80%;
+    height: 50%;
+}
+
+.food-box h4{
+    font-size:28px;
+    font-weight:700;
+    margin-bottom:15px;
+    color:#222;
+}
+
+.food-box p{
+    color:#666;
+    line-height:1.8;
+    font-size:16px;
+}
+
+.middle-box{
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+}
+
+/*==========================
+    HOVER EFFECT
+==========================*/
+
+.feature-box,
+.food-box{
+    transition:.3s;
+}
+
+.feature-box:hover,
+.food-box:hover{
+    transform:translateY(-8px);
+}
+
+
+
+
+
