@@ -1358,3 +1358,60 @@ text-align:center;
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+/*==================================
+        RESPONSIVE For Footer
+==================================*/
+
+@media(max-width:991px){
+
+    .footer{
+        text-align:center;
+    }
+
+    .footer-box p{
+        margin:auto;
+    }
+
+    .social-icons{
+        justify-content:center;
+        margin-top:20px;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .footer{
+        padding:50px 0 30px;
+    }
+
+    .footer-box h4{
+        font-size:22px;
+    }
+
+    .footer-box p,
+    .footer-box ul li a{
+        font-size:15px;
+    }
+
+    .social-icons a{
+        width:40px;
+        height:40px;
+        font-size:16px;
+    }
+
+    .footer-text{
+        font-size:16px;
+    }
+
+}
