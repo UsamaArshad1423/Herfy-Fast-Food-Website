@@ -108,7 +108,7 @@ body{
 
 .hero{
     min-height:100vh;
-    background:#17b5d9;
+    background:#000000;
     display:flex;
     align-items:center;
     overflow:hidden;
